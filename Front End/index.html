@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<!-- Configuração do arquivo -->
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Calculadora de Juros Compostos </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- importando estilização -->
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Importando javascript -->
+    <script src='main.js'></script>
+</head>
+<!-- Conteúdo -->
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> Home</li>
+                <li> Perfil Github</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1> Calculadora de Juros Compostos </h1>
+        <section id="simulacao">
+            <h2> Simulador de Juros compostos </h2>
+            <form>
+               <div> 
+                    <label for="valor-inicial"> Valor inicial </label>
+                    <input type="number" id="valor-inicial"/>
+               </div> 
+               <div>
+                    <label for="valor-mensal"> Valor mensal </label>
+                    <input type="number" id="valor-mensal"/>
+               </div>
+               <div>
+                    <label for="taxa-juros"> Taxa de Juros </label>
+                    <input type="number" id="taxa-juros"/>
+               </div>
+               <div>
+                    <label for="periodo"> Período </label>
+                    <input type="number" id="periodo"/>
+               </div>
+               <div>
+                    <input type="submit" value="Calcular"/>
+                    <button> Limpar </button>
+               </div>
+            </form>
+        </section>
+        <section id="resultado">
+            <h2> Resultado </h2>
+            <div> 
+                <p> Valor total final </p>
+                <p> R$ 0,00 </p>
+            </div>
+            <div> 
+                <p> Valor total investido </p>
+                <p> R$ 0,00 </p>
+            </div>
+            <div> 
+                <p> Total em Juros </p>
+                <p> R$ 0,00 </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
